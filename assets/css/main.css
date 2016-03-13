@@ -2584,6 +2584,19 @@
 		width: 100%;
 	}
 
+	#one .major {
+		color: black;
+		text-align: center;
+	}
+	#one .major p{
+		font-size: 25px;
+	}
+	#one p {
+		text-align: justify;
+		font-style: normal;
+		}
+
+
 /* Footer */
 
 	#footer {
@@ -2759,7 +2772,7 @@
 		/* One */
 
 			#one:before {
-				height: 10em;
+				height: 0em;
 			}
 
 		/* Off-Canvas Navigation */
@@ -2957,7 +2970,7 @@
 		/* One */
 
 			#one:before {
-				height: 7em;
+				height: 0em;
 			}
 
 		/* Footer */
