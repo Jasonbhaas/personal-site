@@ -2092,7 +2092,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #17293F;
+					background: #3B536E;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2585,7 +2585,6 @@
 	}
 
 	#one .major {
-		color: black;
 		text-align: center;
 	}
 	#one .major p{
@@ -2594,8 +2593,15 @@
 	#one p {
 		text-align: justify;
 		font-style: normal;
+		color: #3B536E;
 		}
 
+/* Two */
+	
+	#two h3 {
+		text-align: left;
+		font-size: 45px;
+	}
 
 /* Footer */
 
