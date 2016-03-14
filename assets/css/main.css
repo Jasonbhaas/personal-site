@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #8CD790;
 		}
 
 	strong, b {
@@ -2479,6 +2479,9 @@
 			#header a:hover {
 				color: #ffffff !important;
 			}
+			#header h1 a:hover {
+				color: #8CD790 !important;
+			}
 
 		#header > header {
 			padding: 3em;
@@ -2601,6 +2604,18 @@
 	#two h3 {
 		text-align: left;
 		font-size: 45px;
+	}
+
+/* Three */
+	
+	#three h3{
+		text-align: center;
+		text-decoration: underline;
+		color: #3B536E;
+	}
+
+	#three a:hover {
+		color: #3B536E;
 	}
 
 /* Footer */
