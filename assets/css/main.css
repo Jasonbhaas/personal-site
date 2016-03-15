@@ -2618,6 +2618,18 @@
 		color: #3B536E;
 	}
 
+/* Four */
+
+	#four h3{
+		text-align: center;
+		text-decoration: underline;
+		color: #3B536E;
+	}
+
+	#four a:hover {
+		color: #3B536E;
+	}
+
 /* Footer */
 
 	#footer {
