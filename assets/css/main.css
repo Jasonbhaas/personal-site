@@ -18,6 +18,13 @@
 		vertical-align: baseline;
 	}
 
+	#main {
+		background: #F3F7F0;
+
+
+	}
+
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1726,7 +1733,7 @@
 	}
 
 	header.major h2 {
-		color: #17293F ;
+		color: #75B9BE ;
 		font-size: 3.5em;
 	}
 
@@ -2480,7 +2487,7 @@
 				color: #ffffff !important;
 			}
 			#header h1 a:hover {
-				color: #8CD790 !important;
+				color: #75B9BE !important;
 			}
 
 		#header > header {
@@ -2491,6 +2498,7 @@
 				display: block;
 				margin: 0 auto 2.25em auto;
 				width: 8em;
+				border: 5px solid #3B536E; 
 			}
 
 			#header > header h1 {
@@ -2499,7 +2507,7 @@
 			}
 
 			#header > header p {
-				color: #D2CEC9;
+				color: #75B9BE;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2517,7 +2525,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #D2CEC9;
+					color: #75B9BE;
 				}
 
 		#header > nav ul {
@@ -2527,9 +2535,13 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #D2CEC9;
+				border-top: solid 1px #D2CEC9;
 				display: block;
 				padding: 0;
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: right;
 			}
 
 				#header > nav ul li a {
@@ -2545,13 +2557,16 @@
 				}
 
 					#header > nav ul li a.active {
-						background: #D2CEC9;
-						color: #17293F !important;
+						width: 100%;
+						color: #75B9BE !important;
 					}
 
 				#header > nav ul li:first-child {
 					border-top: 0;
 				}
+.header-icon {
+	float: left;
+}
 
 /* Wrapper */
 
@@ -2563,7 +2578,7 @@
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 8px #D2CEC9;
 	}
 
 		#main > section > .container {
@@ -2574,6 +2589,16 @@
 			border-top: 0;
 		}
 
+.icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased; }
+
 /* One */
 
 	#one:before {
@@ -2583,7 +2608,7 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: .5em;
+		height: 0;
 		width: 100%;
 	}
 
@@ -2611,9 +2636,12 @@
 	#three h3{
 		text-align: center;
 		text-decoration: underline;
-		color: #3B536E;
+		color: #17293F;
 	}
 
+	#three h4 {
+		color: #75B9BE;
+	}
 	#three a:hover {
 		color: #3B536E;
 	}
@@ -2623,11 +2651,22 @@
 	#four h3{
 		text-align: center;
 		text-decoration: underline;
-		color: #3B536E;
+		color: #17293F;
 	}
 
+	#four h4 {
+		color: #75B9BE;
+	}
 	#four a:hover {
 		color: #3B536E;
+	} 
+
+	#four p a {
+		color: #3B536E;
+	}
+	
+	#four p a:hover {
+		color: #75B9BE;
 	}
 
 /* Footer */
